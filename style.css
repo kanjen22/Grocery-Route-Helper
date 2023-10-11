@@ -72,9 +72,9 @@ a {
     font-weight: 800;
 }
 
-/* .class {
-    width: 200px;
-} */
+.map {
+    width: 550px;
+}
 
 /* ###### main-content ##### */
 .main-content {
@@ -124,6 +124,9 @@ a {
     height: 160px;
 }
 
+.img-box img {
+    width: 145px;
+}
 
 /* ###### review-content ##### */
 .reviews {
