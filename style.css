@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 0px;
 }
@@ -7,6 +8,7 @@ body {
 /* ##### header-content ##### */
 .headers {
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     color: #F9FAF8;
     flex-direction: column;
@@ -19,6 +21,7 @@ body {
 .bottom-header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -45,6 +48,7 @@ a {
 
 .bottom-header-left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     font-size: 18px;
     width: 400px;
@@ -71,6 +75,7 @@ a {
 /* ###### main-content ##### */
 .main-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -87,6 +92,7 @@ a {
 
 .img-links-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -94,6 +100,7 @@ a {
 
 .img-link {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     width: 160px;
@@ -113,6 +120,7 @@ a {
 /* ###### review-content ##### */
 .reviews {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: #E5E7EB;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
